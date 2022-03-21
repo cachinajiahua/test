@@ -12252,6 +12252,8 @@ input {
 
   text-align: center;
 
+  background-color: #fff;
+
 }
 
 .contries ul li {
@@ -12424,7 +12426,7 @@ input {
       background-image: url(/img/who-we-are.png);
       background-repeat: no-repeat;
       background-position: center bottom;
-      background-color: #fff;
+      background-color: #efefef;
   }
 
       .who-we-are .list-box .more {
