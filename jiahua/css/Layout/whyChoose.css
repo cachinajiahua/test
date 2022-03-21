@@ -1,0 +1,73 @@
+.whyChoose {
+  margin: 24px auto;
+  width: 1202px;
+  background: #fff;
+  border: solid 1px #e0e0e0; }
+  .whyChoose-title {
+    margin: 35px;
+    font-family: AlibabaPuHuiTi-Medium;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 44px;
+    letter-spacing: 0px;
+    color: #525252;
+    text-align: center; }
+  .whyChoose-section {
+    width: 300px;
+    height: 256px;
+    float: left;
+    padding: 48px 30px 35px 30px;
+    border: 1px solid #c7c7c7;
+    border-bottom: 0;
+    border-left: 0; }
+    .whyChoose-section-icon {
+      width: 77px;
+      height: 72px;
+      font-family: AlibabaPuHuiTi-Bold;
+      font-size: 48px;
+      font-weight: normal;
+      font-stretch: normal;
+      line-height: 24px;
+      letter-spacing: 0px;
+      color: #9d9b9b;
+      opacity: 0.63;
+      border-radius: 10px;
+      border: solid 3px #c9c9c9;
+      margin: auto;
+      text-align: center;
+      padding-top: 20px; }
+    .whyChoose-section-title {
+      margin-top: 22px;
+      font-family: AlibabaPuHuiTi-Medium;
+      font-size: 18px;
+      font-weight: normal;
+      font-stretch: normal;
+      line-height: 44px;
+      letter-spacing: 0px;
+      color: #525252;
+      text-align: center; }
+    .whyChoose-section-info {
+      margin-top: 22px;
+      width: 235px;
+      font-family: AlibabaPuHuiTi-Regular;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      line-height: 24px;
+      letter-spacing: 0px;
+      color: #525252;
+      text-align: center;
+      margin: auto; }
+    .whyChoose-section:hover {
+      box-shadow: 0px 5px 29px 2px rgba(3, 0, 0, 0.1); }
+      .whyChoose-section:hover .whyChoose-section-icon {
+        color: #ff6a67;
+        opacity: 1;
+        border-color: #ff6a67; }
+      .whyChoose-section:hover .whyChoose-section-title {
+        color: #010101; }
+      .whyChoose-section:hover .whyChoose-section-info {
+        color: #282828; }
+
+/*# sourceMappingURL=whyChoose.css.map */

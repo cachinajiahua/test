@@ -1,0 +1,91 @@
+#join {
+  background-color: #F1F1F1;
+  padding-bottom: 30px;
+}
+
+#join .join {
+  background-color: #F1F1F1;
+}
+
+#join .join .div_content {
+  width: 1200px;
+  margin: 0 auto 44px;
+  padding-top: 40px;
+}
+
+#join .join .div_content div .pTitle {
+  background-image: url(../../images/Join/bg_01.png);
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  padding: 20px 0;
+  color: white;
+  font-size: 22px;
+}
+
+#join .join .div_content div .pTitle span {
+  border-left: 5px solid white;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#join .join .div_content div .conLeft {
+  background-color: white;
+  padding: 0 30px;
+  padding-bottom: 265px;
+}
+
+#join .join .div_content div .conLeft .pLine {
+  border-bottom: 1px dashed #989898;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#join .join .div_content div .conLeft .pCon {
+  font-size: 18px;
+  line-height: 2em;
+}
+
+#join .join .div_content div .conLeft .pCon a {
+  color: #444444;
+  text-decoration: none;
+}
+
+#join .join .div_content div .conLeft .pCon a:hover,
+#join .join .div_content div .conLeft .pCon a:active,
+#join .join .div_content div .conLeft .pCon a:focus {
+  color: #444444;
+  text-decoration: none;
+}
+
+#join .join .div_content div .conLeft .pCommon {
+  font-size: 16px;
+}
+
+#join .join .div_content div .conLeft .pCommon img {
+  margin-right: 20px;
+}
+
+#join .join .div_content div .conRight {
+  background-color: white;
+  padding: 50px 30px;
+  padding-bottom: 98px;
+}
+
+#join .join .div_content div .conRight h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+#join .join .div_content div .conRight h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+
+#join .join .div_content div .conRight .pCommon {
+  font-size: 16px;
+  line-height: 2em;
+}

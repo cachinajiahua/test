@@ -1,0 +1,244 @@
+.immigrantDetailInfoViewV2 {
+  width: 1200px !important;
+  background: url("../../images/immigrant/03.jpg");
+  background-size: 100% 100%;
+  margin: 20px 0;
+  text-align: center;
+  color: #fff; }
+
+.immigrantDetailPage .immigrantDetailContent-title_view {
+  width: 640px; }
+
+.homeAcitvity > div .content-view_title:hover {
+  color: #0A4B9B; }
+
+.immigrantDetailContent-condition, .immigrantDetailContent-goodness {
+  height: 266px;
+  min-height: 266px;
+  overflow: hidden; }
+  .immigrantDetailContent-condition:hover, .immigrantDetailContent-goodness:hover {
+    height: inherit;
+    overflow-y: inherit; }
+
+.immigrantDetailPage .immigrantDetailContent-condition, .immigrantDetailPage .immigrantDetailContent-cost {
+  min-height: 270px; }
+
+select, option:focus {
+  outline: none !important; }
+
+.immigrantDetailContent-btn {
+  margin-top: 28px;
+  height: 49px;
+  background-color: #d9deff;
+  border: solid 1px #343e83;
+  padding: 0px 34px;
+  font-family: PingFang-SC-Bold;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 44px;
+  letter-spacing: 0px;
+  color: #212853;
+  float: left;
+  margin-right: 13px; }
+  .immigrantDetailContent-btn :hover {
+    background-color: #343e83;
+    border: solid 1px #e6e6e6;
+    color: #fff; }
+
+.immigrantDetailContentTitle {
+  font-family: MicrosoftYaHei-Bold;
+  font-size: 22px !important;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.8 !important;
+  letter-spacing: 0px;
+  color: #ffffff !important;
+  background-color: #343e83 !important;
+  margin-left: 0 !important;
+  padding-left: 26px !important;
+  width: inherit !important;
+  margin-top: 0 !important; }
+
+.immigrantDetailContent-fee div {
+  display: inline-block; }
+  .immigrantDetailContent-fee div:nth-child(2) {
+    margin: 0 16px;
+    padding: 5px 16px;
+    color: #fff;
+    border-radius: 28px;
+    background-image: linear-gradient(#343e83, #343e83), linear-gradient(#f9f9f9, #f9f9f9);
+    background-blend-mode: normal, normal; }
+
+.immigrantDetailPage .immigrantDetailContent-title_view p {
+  width: inherit !important;
+  font-family: PingFang-SC-Bold;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 30px;
+  letter-spacing: 0px;
+  color: #909090; }
+
+.immigrantDetailFlow {
+  height: inherit !important;
+  overflow: inherit !important; }
+
+.immigrantDetailFlow-section {
+  width: 263px;
+  height: 135px;
+  background: #eeeeee;
+  box-shadow: 0px 5px 5px 0px rgba(3, 0, 0, 0.1);
+  margin-bottom: 54px;
+  position: relative; }
+  .immigrantDetailFlow-section .immigrantDetailFlow-section-step {
+    width: 93px;
+    height: 69px;
+    background: url("../../images/immigrant/01.png");
+    background-size: 100% 100%;
+    font-family: PingFang-SC-Regular;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px; }
+  .immigrantDetailFlow-section .immigrantDetailFlow-section-title {
+    font-family: PingFang-SC-Regular;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: #000000;
+    padding: 2px 16px 8px; }
+  .immigrantDetailFlow-section .immigrantDetailFlow-section-content {
+    font-family: PingFang-SC-Regular;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 16px;
+    letter-spacing: 0px;
+    color: #a0a0a0;
+    padding: 0px 16px; }
+  .immigrantDetailFlow-section:nth-child(1) {
+    float: left;
+    margin-right: 35px; }
+  .immigrantDetailFlow-section:nth-child(2) {
+    float: left;
+    margin-right: 35px; }
+  .immigrantDetailFlow-section:nth-child(3) {
+    float: left;
+    margin-right: 33px; }
+  .immigrantDetailFlow-section:nth-child(4) {
+    float: left; }
+    .immigrantDetailFlow-section:nth-child(4) .immigrantDetailFlow-section-angle {
+      transform: rotate(90deg);
+      top: 140px;
+      left: 120px; }
+  .immigrantDetailFlow-section:nth-child(5) {
+    float: right; }
+    .immigrantDetailFlow-section:nth-child(5) .immigrantDetailFlow-section-angle {
+      display: none; }
+  .immigrantDetailFlow-section:nth-child(6) {
+    float: right;
+    margin-right: 33px; }
+    .immigrantDetailFlow-section:nth-child(6) .immigrantDetailFlow-section-angle {
+      transform: rotate(180deg);
+      right: -30px; }
+  .immigrantDetailFlow-section:nth-child(7) {
+    float: right;
+    margin-right: 35px; }
+    .immigrantDetailFlow-section:nth-child(7) .immigrantDetailFlow-section-angle {
+      transform: rotate(180deg);
+      right: -30px; }
+  .immigrantDetailFlow-section:nth-child(8) {
+    float: right;
+    margin-right: 35px; }
+    .immigrantDetailFlow-section:nth-child(8) .immigrantDetailFlow-section-angle {
+      transform: rotate(180deg);
+      right: -30px; }
+  .immigrantDetailFlow-section:nth-child(9) {
+    float: left;
+    margin-right: 35px; }
+    .immigrantDetailFlow-section:nth-child(9) .immigrantDetailFlow-section-angle {
+      top: -45px;
+      transform: rotate(90deg);
+      left: 115px; }
+  .immigrantDetailFlow-section:nth-child(10) {
+    float: left;
+    margin-right: 35px; }
+    .immigrantDetailFlow-section:nth-child(10) .immigrantDetailFlow-section-angle {
+      transform: rotate(0deg);
+      left: -30px; }
+  .immigrantDetailFlow-section:nth-child(11) {
+    float: left;
+    margin-right: 33px; }
+    .immigrantDetailFlow-section:nth-child(11) .immigrantDetailFlow-section-angle {
+      transform: rotate(0deg);
+      left: -30px; }
+  .immigrantDetailFlow-section:nth-child(12) {
+    float: left; }
+    .immigrantDetailFlow-section:nth-child(12) .immigrantDetailFlow-section-angle {
+      transform: rotate(0deg);
+      left: -30px; }
+  .immigrantDetailFlow-section:nth-child(13) {
+    float: right; }
+    .immigrantDetailFlow-section:nth-child(13) .immigrantDetailFlow-section-angle {
+      transform: rotate(90deg);
+      left: 120px;
+      top: -45px; }
+  .immigrantDetailFlow-section:nth-child(14) {
+    float: right;
+    margin-right: 33px; }
+    .immigrantDetailFlow-section:nth-child(14) .immigrantDetailFlow-section-angle {
+      transform: rotate(180deg);
+      right: -30px; }
+  .immigrantDetailFlow-section:nth-child(15) {
+    float: right;
+    margin-right: 35px; }
+    .immigrantDetailFlow-section:nth-child(15) .immigrantDetailFlow-section-angle {
+      transform: rotate(180deg);
+      right: -30px; }
+  .immigrantDetailFlow-section:nth-child(16) {
+    float: right;
+    margin-right: 35px; }
+    .immigrantDetailFlow-section:nth-child(16) .immigrantDetailFlow-section-angle {
+      transform: rotate(180deg);
+      right: -30px; }
+  .immigrantDetailFlow-section .immigrantDetailFlow-section-angle {
+    width: 27px;
+    height: 45px;
+    position: absolute;
+    top: 45px;
+    right: -32px; }
+
+.right-toolkit {
+  position: fixed;
+  right: 5px;
+  top: 55%;
+  transform: translateY(-50%); }
+  .right-toolkit-title {
+    font-family: PingFang-SC-Bold;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #484545; }
+    .right-toolkit-title :hover {
+      color: #484545; }
+  .right-toolkit-file {
+    background-image: linear-gradient(#ffe55d, #ffe55d), linear-gradient(#ffffff, #ffffff);
+    background-blend-mode: normal, normal;
+    border-radius: 10px;
+    border: solid 2px #fbb40e;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #353535;
+    padding: 5px 10px; }
+
+/*# sourceMappingURL=ImmigrantDetailV2.css.map */

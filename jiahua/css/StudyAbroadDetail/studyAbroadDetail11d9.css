@@ -1,0 +1,197 @@
+#studyAbroadDetail {
+  background-color: #f7f7f7;
+  overflow: hidden;
+}
+
+#studyAbroadDetail .studyAbroadDetailContent {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#studyAbroadDetail .studyAbroadDetailContent .studyAbroadDetailContent-title {
+  background-color: #fff;
+  padding: 30px 0;
+  margin-top: 3%;
+}
+
+#studyAbroadDetail .studyAbroadDetailContent .studyAbroadDetailContent-title .div_left {
+  text-align: center;
+  padding-right: 0;
+}
+
+#studyAbroadDetail .studyAbroadDetailContent .studyAbroadDetailContent-title .div_right {
+  padding-left: 0;
+}
+
+#studyAbroadDetail .studyAbroadDetailContent .studyAbroadDetailContent-title .div_right h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 3%;
+}
+
+#studyAbroadDetail .studyAbroadDetailContent .studyAbroadDetailContent-title .div_right div p {
+  font-size: 15px;
+  line-height: 1.8em;
+}
+
+#studyAbroadDetail .studyAbroadDetailContent .studyAbroadDetailContent-dec {
+  margin-top: 1%;
+}
+
+#studyAbroadDetail .studyAbroadDetailContent .studyAbroadDetailContent-dec .div_left {
+  background-color: #fff;
+  padding: 30px 0;
+  width: 64.6%;
+  margin-right: 2%;
+  padding-left: 50px;
+}
+
+#studyAbroadDetail .studyAbroadDetailContent .studyAbroadDetailContent-dec .div_left h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 3%;
+}
+
+#studyAbroadDetail .studyAbroadDetailContent .studyAbroadDetailContent-dec .div_left p {
+  font-size: 15px;
+  line-height: 1.8em;
+}
+
+#studyAbroadDetail .studyAbroadDetailContent .studyAbroadDetailContent-dec .div_right {
+  background-color: #fff;
+  height: 200px;
+  padding: 30px 20px;
+}
+
+#studyAbroadDetail .studyAbroadDetailContent .studyAbroadDetailContent-dec .div_right h3 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 3%;
+}
+
+#studyAbroadDetail .studyAbroadDetailContent .studyAbroadDetailContent-deci {
+  margin-top: 1%;
+}
+
+#studyAbroadDetail .studyAbroadDetailContent .studyAbroadDetailContent-deci .div_left {
+  background-color: #fff;
+  width: 50%;
+  height: 150px;
+  padding: 20px;
+}
+
+#studyAbroadDetail .studyAbroadDetailContent .studyAbroadDetailContent-deci .div_left h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 1%;
+}
+
+#studyAbroadDetail .studyAbroadDetailContent .studyAbroadDetailContent-deci .div_left p {
+  font-size: 15px;
+  line-height: 1.8em;
+}
+
+#studyAbroadDetail .studyAbroadDetailContent .studyAbroadDetailContent-deci .div_right {
+  background-color: #fff;
+  width: 49%;
+  margin-left: 1%;
+  height: 150px;
+  padding: 20px;
+}
+
+#studyAbroadDetail .studyAbroadDetailContent .studyAbroadDetailContent-deci .div_right h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 1%;
+}
+
+#studyAbroadDetail .studyAbroadDetailContent .studyAbroadDetailContent-deci .div_right p {
+  font-size: 15px;
+  line-height: 1.8em;
+}
+
+#studyAbroadDetail .studyAbroadDetailContent .college {
+  background-color: #fff;
+  padding: 15px;
+  margin-top: 1%;
+}
+
+#studyAbroadDetail .studyAbroadDetailContent .college h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1D2974;
+}
+
+#studyAbroadDetail .studyAbroadDetailContent .college hr {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+#studyAbroadDetail .studyAbroadDetailContent .college table {
+  width: 100%;
+  text-align: center;
+}
+
+#studyAbroadDetail .studyAbroadDetailContent .college table tr th {
+  height: 40px;
+  text-align: center;
+  background-color: #4F81BC;
+  color: white;
+  font-size: 18px;
+}
+
+#studyAbroadDetail .studyAbroadDetailContent .college table tr .td_number {
+  color: white;
+  background-color: #4F81BC;
+  font-size: 18px;
+}
+
+#studyAbroadDetail .studyAbroadDetailContent .college table tr td {
+  border: 1px solid white;
+  height: 40px;
+}
+
+#studyAbroadDetail .studyAbroadDetailContent .college table .singular {
+  background-color: #E9EEF4;
+}
+
+#studyAbroadDetail .studyAbroadDetailContent .college table .even_number {
+  background-color: #D0D7E7;
+}
+
+#studyAbroadDetail .studyAbroadDetailContent .collegeIntro {
+  background-color: #fff;
+  padding: 15px;
+  margin-top: 1%;
+  width: 1230px;
+  margin-left: -15px;
+}
+
+#studyAbroadDetail .studyAbroadDetailContent .collegeIntro h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1D2974;
+}
+
+#studyAbroadDetail .studyAbroadDetailContent .collegeIntro hr {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+#studyAbroadDetail .studyAbroadDetailContent .collegeIntro .div_con .divCommon {
+  width: 32%;
+  border: 1px solid #E6E6E6;
+  margin-left: 1%;
+  padding: 20px 15px;
+}
+
+#studyAbroadDetail .studyAbroadDetailContent .collegeIntro .div_con .divCommon h3 {
+  font-size: 18px;
+  margin-bottom: 2%;
+}
+
+#studyAbroadDetail .studyAbroadDetailContent .collegeIntro .div_con .divCommon p {
+  font-size: 15px;
+  line-height: 1.8em;
+}

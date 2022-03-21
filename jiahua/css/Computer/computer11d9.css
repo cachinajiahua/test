@@ -1,0 +1,370 @@
+#homeComputer {
+  position: fixed;
+  left: 0;
+  bottom: 350px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+#computer {
+  background-color: rgba(34, 34, 34, 0.5);
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+#computer .comContent {
+  background-color: #FFFFFF;
+  position: fixed;
+  top: 15%;
+  text-align: center;
+  padding: 40px;
+  width: 100%;
+}
+
+#computer .comContent .close {
+  position: absolute;
+  top: 30px;
+  right: 390px;
+  cursor: pointer;
+}
+
+#computer .comContent .hTitle {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 2%;
+}
+
+#computer .comContent .divCon {
+  width: 1200px;
+  margin-left: 18%;
+}
+
+#computer .comContent .divCon .divLeft {
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+  padding: 40px 20px;
+  width: 48%;
+  height: 510px;
+}
+
+#computer .comContent .divCon .divLeft .divCommon {
+  margin-top: 3%;
+}
+
+#computer .comContent .divCon .divLeft .divCommon .divLeftTitle {
+  padding: 10px 0;
+}
+
+#computer .comContent .divCon .divLeft .divCommon .divLeftTitle p {
+  font-size: 20px;
+  color: #565656;
+}
+
+#computer .comContent .divCon .divLeft .divCommon .divLeftCon {
+  background-color: #F7F7F7;
+  border: 1px solid #E5E5E5;
+  cursor: pointer;
+  padding: 10px 0;
+  position: relative;
+}
+
+#computer .comContent .divCon .divLeft .divCommon .divLeftCon .prepare {
+  text-align: left;
+  font-size: 16px;
+  color: #A9A9A9;
+}
+
+#computer .comContent .divCon .divLeft .divCommon .divLeftCon .prepare .countryCon {
+  position: absolute;
+  top: 33px;
+  left: 14px;
+  background-color: white;
+  width: 134%;
+  border: 1px solid #E5E5E5;
+  z-index: 111;
+  text-align: center;
+  color: #444444;
+  display: none;
+}
+
+#computer .comContent .divCon .divLeft .divCommon .divLeftCon .prepare .countryCon .stateLeft {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#computer .comContent .divCon .divLeft .divCommon .divLeftCon .prepare .countryCon .stateLeft ul li {
+  padding: 5px 0;
+}
+
+#computer .comContent .divCon .divLeft .divCommon .divLeftCon .prepare .countryCon .stateLeft ul li img {
+  margin-right: 5%;
+}
+
+#computer .comContent .divCon .divLeft .divCommon .divLeftCon .prepare .countryCon .stateLeft ul li:hover {
+  background-color: #F7F7F7;
+}
+
+#computer .comContent .divCon .divLeft .divCommon .divLeftCon .prepare .countryCon .countryRight {
+  border-left: 1px solid #E5E5E5;
+  padding-left: 0;
+  padding-right: 0;
+  max-height: 240px;
+  overflow-y: scroll;
+}
+
+#computer .comContent .divCon .divLeft .divCommon .divLeftCon .prepare .countryCon .countryRight ul li {
+  padding: 5px 0;
+  border-bottom: 1px solid #E5E5E5;
+  border-left: none;
+}
+
+#computer .comContent .divCon .divLeft .divCommon .divLeftCon .prepare .countryCon .countryRight ul li:last-child {
+  border-bottom: 1px solid #E5E5E5;
+}
+
+#computer .comContent .divCon .divLeft .divCommon .divLeftCon .prepare .countryCon .countryRight ul li:hover {
+  background-color: #F7F7F7;
+}
+
+#computer .comContent .divCon .divLeft .divCommon .divLeftCon .prepare .projectCon {
+  position: absolute;
+  top: 32px;
+  left: 0;
+  width: 134%;
+  background-color: white;
+  z-index: 111;
+  color: #444444;
+  display: none;
+}
+
+#computer .comContent .divCon .divLeft .divCommon .divLeftCon .prepare .projectCon li {
+  padding: 10px;
+  border: 1px solid #E5E5E5;
+  cursor: pointer;
+}
+
+#computer .comContent .divCon .divLeft .divCommon .divLeftCon .prepare .applyCon {
+  position: absolute;
+  top: 32px;
+  left: 0;
+  width: 134%;
+  background-color: white;
+  z-index: 111;
+  color: #444444;
+  display: none;
+}
+
+#computer .comContent .divCon .divLeft .divCommon .divLeftCon .prepare .applyCon li {
+  padding: 10px;
+  border: 1px solid #E5E5E5;
+  cursor: pointer;
+}
+
+#computer .comContent .divCon .divLeft .divCommon .divLeftCon .arrowDown {
+  position: relative;
+  top: 5px;
+}
+
+#computer .comContent .divCon .divLeft .divCommon .divLeftCon .userName {
+  background-color: transparent;
+  font-size: 16px;
+  width: 100%;
+}
+
+#computer .comContent .divCon .divLeft .divCommon .divLeftCon .userPhone {
+  background-color: transparent;
+  font-size: 16px;
+  width: 100%;
+}
+
+#computer .comContent .divCon .divLeft .warning {
+  color: #FD4A4D;
+  text-align: left;
+  padding-left: 30px;
+  margin-top: 10px;
+}
+
+#computer .comContent .divCon .divLeft .computerBtn {
+  background-color: #343E83;
+  color: white;
+  font-size: 20px;
+  padding: 15px 0;
+  width: 50%;
+  margin-left: 25%;
+  border-radius: 30px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+#computer .comContent .divCon .divRight {
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+  padding: 40px 0;
+  width: 48%;
+  margin-left: 2%;
+  height: 510px;
+}
+
+#computer .comContent .divCon .divRight .divConTwo {
+  position: relative;
+}
+
+#computer .comContent .divCon .divRight .divConTwo .divConLeft {
+  padding-left: 20px;
+  border-right: 2px solid #EEEEEE;
+}
+
+#computer .comContent .divCon .divRight .divConTwo .divConLeft p {
+  font-size: 18px;
+  font-weight: bold;
+  position: relative;
+}
+
+#computer .comContent .divCon .divRight .divConTwo .divConLeft p .iconQuse {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+#computer .comContent .divCon .divRight .divConTwo .divConLeft p span {
+  color: #343F81;
+  font-weight: normal;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#computer .comContent .divCon .divRight .divConTwo .divConLeft p .triangular {
+  position: absolute;
+  bottom: 19px;
+  right: 30px;
+  z-index: 100;
+  display: none;
+}
+
+#computer .comContent .divCon .divRight .divConTwo .divConLeft h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+#computer .comContent .divCon .divRight .divConTwo .divConLeft h2 span {
+  color: #FF7922;
+}
+
+#computer .comContent .divCon .divRight .divConTwo .divConRight {
+  padding-right: 20px;
+}
+
+#computer .comContent .divCon .divRight .divConTwo .divConRight p {
+  font-size: 18px;
+  font-weight: bold;
+  position: relative;
+}
+
+#computer .comContent .divCon .divRight .divConTwo .divConRight p .iconQuse {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+#computer .comContent .divCon .divRight .divConTwo .divConRight p span {
+  color: #343F81;
+  font-weight: normal;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#computer .comContent .divCon .divRight .divConTwo .divConRight p .triangular {
+  position: absolute;
+  bottom: 19px;
+  right: 30px;
+  z-index: 100;
+  display: none;
+}
+
+#computer .comContent .divCon .divRight .divConTwo .divConRight h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+#computer .comContent .divCon .divRight .divConTwo .divConRight h2 span {
+  color: #FF7922;
+}
+
+#computer .comContent .divCon .divRight .divConTwo .investment {
+  position: absolute;
+  top: -70px;
+  left: 0;
+  border: 1px solid #D8D8D8;
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: white;
+  z-index: 99;
+  color: #A4A4A4;
+  text-align: left;
+  display: none;
+}
+
+#computer .comContent .divCon .divRight .divConTwo .netIncome {
+  position: absolute;
+  top: -70px;
+  left: 0;
+  border: 1px solid #D8D8D8;
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: white;
+  z-index: 99;
+  color: #A4A4A4;
+  text-align: left;
+  display: none;
+}
+
+#computer .comContent .divCon .divRight hr {
+  margin-top: 20px;
+}
+
+#computer .comContent .divCon .divRight .pOne {
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+#computer .comContent .divCon .divRight .pOne span {
+  color: #FF5150;
+}
+
+#computer .comContent .divCon .divRight .pTwo {
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+#computer .comContent .divCon .divRight .pTwo span {
+  color: #FE2C2D;
+}
+
+#computer .comContent .divCon .divRight .pTwo .spanOne {
+  color: #323F83;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#computer .comContent .divCon .divRight table {
+  width: 95%;
+  text-align: center;
+  margin-left: 5%;
+  margin-top: 3%;
+}
+
+#computer .comContent .divCon .divRight table tr th {
+  border: 1px solid #DEDEDE;
+  text-align: center;
+  padding: 10px 0;
+  color: white;
+  background-color: #343E83;
+}
+
+#computer .comContent .divCon .divRight table tr td {
+  border: 1px solid #DEDEDE;
+  padding: 5px 0;
+  background-color: #F7F7F7;
+}

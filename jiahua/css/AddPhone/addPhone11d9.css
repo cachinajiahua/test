@@ -1,0 +1,17 @@
+#addPhone {
+  position: fixed;
+  left: 0;
+  bottom: 300px;
+  z-index: 999;
+  background-color: #343e83;
+  padding: 5px 10;
+  padding-right: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+#addPhone a {
+  color: white;
+  font-weight: bold !important;
+  font-size: 22px;
+}
